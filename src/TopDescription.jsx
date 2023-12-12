@@ -26,7 +26,7 @@ export function TopDescription() {
         <p>
           Introducing our Coffee Collection, a selection of unique coffees from
           different roast types and origins, expertly roasted in small batches
-          and shipped fresh weekly.
+          and shipped fresh weekly. By Jesús Martínez.
         </p>
       </div>
       <div className="flex flex-row justify-center gap-5 text-[#f3f7ee] font-semibold py-1 lg:mt-4 md:mt-4 sm:mt-7 xs:mb-10">
