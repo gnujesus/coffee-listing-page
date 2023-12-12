@@ -16,7 +16,7 @@ export function TopDescription() {
     //   style={backgroundStyle}
     // >
     <div
-      className="h-[240px] sm:h-[300px] w-full flex flex-col sm:grid-rows-3 grid-cols-1 text-white lg:mt-20 md:mt-12 sm:mt-10 md:py-5 sm:my-20 gap-10 sm:mb-4 xs:mb-10"
+      className="h-[240px] sm:h-[300px] w-full flex flex-col sm:grid-rows-3 grid-cols-1 text-white lg:mt-20 md:mt-12 sm:mt-10 md:py-5 sm:my-20 gap-10 sm:mb-4"
       style={backgroundStyle}
     >
       <h1 className="flex justify-center text-[32px] font-bold">
