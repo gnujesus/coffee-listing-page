@@ -59,7 +59,7 @@ export function Card({
   let hasRating = numberOfVotes > 0 ? `(${numberOfVotes} votes)` : "No rating";
 
   return (
-    <div className="flex flex-col gap-5 text-md tracking-wide align-middle lg:w-80 lg:h-80 lg:m-10 md:w-72 md:h-72 sm:my-20 xs:my-10">
+    <div className="flex flex-col gap-5 text-md tracking-wide align-middle w-80 h-80 m-10 md:w-72 md:h-72 sm:my-5 xs:my-">
       {/* CSS style applied here */}
       {/* Remember to not use `border border-transparent` if not necessary. It was screwing up the img background */}
       <div
