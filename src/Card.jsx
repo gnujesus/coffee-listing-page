@@ -59,11 +59,11 @@ export function Card({
   let hasRating = numberOfVotes > 0 ? `(${numberOfVotes} votes)` : "No rating";
 
   return (
-    <div className="flex flex-col gap-5 text-md tracking-wide align-middle w-80 h-80 m-10 md:w-72 md:h-72 sm:my-5 xs:my-">
+    <div className="flex flex-col gap-5 text-md tracking-wide align-middle w-80 h-80 m-10 md:w-72 md:h-72 sm:my-5 xs:w-[90%] xs:mb-2">
       {/* CSS style applied here */}
       {/* Remember to not use `border border-transparent` if not necessary. It was screwing up the img background */}
       <div
-        className="text-white bg-white h-52 w-full rounded-lg tracking-wide align-middle relative overflow-hidden bg-cover bg-center"
+        className="text-white bg-white h-52 w-full xs:h-1/2 rounded-lg tracking-wide align-middle relative overflow-hidden bg-cover bg-center"
         style={backgroundStyle}
       >
         <div className={popularTag}>

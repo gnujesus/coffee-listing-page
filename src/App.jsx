@@ -28,7 +28,7 @@ export function App() {
 
   return (
     <div
-      className="bg-[#111315] w-full h-full grid place-items-center xs:p-8"
+      className="bg-[#111315] w-full h-full flex place-content-center"
       style={backgroundStyle}
     >
       {/* 4/5 means 80% */}
