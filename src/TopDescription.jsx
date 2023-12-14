@@ -29,7 +29,7 @@ export function TopDescription() {
           and shipped fresh weekly. By Jesús Martínez.
         </p>
       </div>
-      <div className="flex flex-row justify-center gap-5 text-[#f3f7ee] font-semibold py-1 lg:mt-4 md:mt-4 sm:mt-7 xs:mb-10">
+      <div className="flex flex-row justify-center gap-2 text-[#f3f7ee] font-semibold">
         <button className="bg-[#6f757c] border border-transparent rounded-lg px-5">
           All Products
         </button>
