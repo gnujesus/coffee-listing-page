@@ -76,12 +76,12 @@ export function Card({
           <button className="px-2 rounded-xl hover:bg-white hover:text-[#111315] transform transition duration-500">
             <p>{name}</p>
           </button>
-          <button className="text-[12px] text-black bg-[#BEE3CC] hover:bg-[#111315] hover:text-white transform transition duration-500 px-4 border border-transparent rounded-lg font-semibold">
-            <p>
-              <span>$</span>
-              {price}
-            </p>
-          </button>
+          {/* <button className="text-[12px] text-black bg-[#BEE3CC] hover:bg-[#111315] hover:text-white transform transition duration-500 px-4 border border-transparent rounded-lg font-semibold"> */}
+          {/*   <p> */}
+          {/*     <span>$</span> */}
+          {/*     {price} */}
+          {/*   </p> */}
+          {/* </button> */}
         </div>
         <div className="align-middle mx-3 flex flex-row gap-1 text-md text-white mt-1">
           {/* Evaluate if the number of votes is major than 0. If it is, it has rating, otherwise, display empty star */}
@@ -91,7 +91,7 @@ export function Card({
               <p className="">{rating}</p>
               <p className="pt-[2px] text-sm text-gray-400">{hasRating}</p>
             </div>
-            <p className={soldOutTag}>Sold Out</p>
+            {/* <p className={soldOutTag}>Sold Out</p> */}
           </div>
         </div>
       </div>
