@@ -63,7 +63,7 @@ export function Card({
       {/* CSS style applied here */}
       {/* Remember to not use `border border-transparent` if not necessary. It was screwing up the img background */}
       <div
-        className="text-white bg-white h-52 w-full xs:h-32 rounded-lg tracking-wide align-middle relative overflow-hidden bg-cover bg-center"
+        className="text-white bg-white h-52 sm:h-72 w-full xs:h-42 rounded-lg tracking-wide align-middle relative overflow-hidden bg-cover bg-center"
         style={backgroundStyle}
       >
         <div className={popularTag}>

@@ -38,7 +38,7 @@ export function TopDescription({ currentSection }) {
 
   return (
     <div
-      className="h-[240px] sm:h-[300px] w-full flex flex-col text-white lg:mt-20 md:mt-12 sm:mt-10 md:py-5 sm:my-20 gap-10 sm:mb-4 xs:p-5 xs:px-[4px] xs:mb-32 text-center"
+      className="h-[240px] sm:h-[300px] w-full flex flex-col text-white lg:mt-20 md:mt-12 sm:mt-10 md:py-5 sm:my-20 gap-10 sm:mb-4 xs:p-5 xs:px-[4px] xs:mb-32 text-center xs:mt-20"
       style={backgroundStyle}
     >
       <h1 className="flex justify-center lg:text-[32px] xs:text-[24px] font-bold">
