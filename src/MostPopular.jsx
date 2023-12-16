@@ -56,14 +56,14 @@ const MostPopular = () => {
 
   return (
     <div
-      className="bg-[#111315] w-full h-full flex place-content-center"
+      className="bg-[#111315] w-full h-full flex place-content-center xs:w-screen"
       style={backgroundStyle}
     >
       {/* 4/5 means 80% */}
       {/* <div className="sm:px-10 px-24 bg-[#1b1d1f] lg:w-4/5 lg:h-4/5 md:w-[820px] md:h-[1500px] sm:w-[460px] sm:h-full md:py-10 lg:my-44 md:my-28 sm:my-28 border border-transparent rounded-lg grid lg:grid-cols-3 lg:grid-rows-3 min-h-screen md:grid-cols-2 md:grid-rows-4 xs:p-8"> */}
-      <div className="flex flex-wrap place-items-center place-content-center bg-[#1b1d1f] w-4/5 h-4/3 md:py-10 lg:my-44 md:my-28 sm:my-28 border border-transparent rounded-lg min-h-screen xs:my-20 px-10 xs:px-0">
+      <div className="flex flex-wrap place-items-center place-content-center bg-[#1b1d1f] w-4/5 h-4/3 xs:w-[96%] md:py-10 lg:my-44 md:my-28 sm:my-28 border border-transparent rounded-lg min-h-screen xs:my-20 px-10 xs:px-0">
         {data ? (
-          <div className="lg:rows-span-1 lg:col-span-3 md:rows-span-1 md:col-span-2 sm:mb-0 xs:mb-28">
+          <div className="lg:rows-span-1 lg:col-span-3 md:rows-span-1 md:col-span-2 sm:mb-0 xs:mb-28 flex flex-wrap">
             <TopDescription currentSection="MostPopular" />
           </div>
         ) : (

@@ -2,7 +2,6 @@ import { Card } from "./Card";
 import { TopDescription } from "./TopDescription";
 import backgroundImage from "./assets/dccl--frontend-simple-coffee-listing/bg-cafe.jpg";
 import { useEffect, useState } from "react";
-
 const AllRecipes = () => {
   const [data, setData] = useState(null);
 
@@ -58,7 +57,7 @@ const AllRecipes = () => {
     >
       {/* 4/5 means 80% */}
       {/* <div className="sm:px-10 px-24 bg-[#1b1d1f] lg:w-4/5 lg:h-4/5 md:w-[820px] md:h-[1500px] sm:w-[460px] sm:h-full md:py-10 lg:my-44 md:my-28 sm:my-28 border border-transparent rounded-lg grid lg:grid-cols-3 lg:grid-rows-3 min-h-screen md:grid-cols-2 md:grid-rows-4 xs:p-8"> */}
-      <div className="flex flex-wrap place-items-center place-content-center bg-[#1b1d1f] w-4/5 h-4/3 md:py-10 lg:my-44 md:my-28 sm:my-28 border border-transparent rounded-lg min-h-screen xs:my-20 lg:px-10 xs:px-0">
+      <div className="flex flex-wrap place-items-center place-content-center bg-[#1b1d1f] w-4/5 h-4/3 xs:w-[96%] md:py-10 lg:my-44 md:my-28 sm:my-28 border border-transparent rounded-lg min-h-screen xs:my-20 lg:px-10 xs:px-0">
         {/* I wrapped the TopDescription and the renderCard function in a ternary so when it's loading, they're both loading, thus preventing the blink effect of the page */}
         {data ? (
           <div className="lg:rows-span-1 lg:col-span-3 md:rows-span-1 md:col-span-2 sm:mb-0 xs:mb-28">

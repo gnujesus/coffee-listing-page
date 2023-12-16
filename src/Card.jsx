@@ -59,11 +59,11 @@ export function Card({
   let hasRating = numberOfVotes > 0 ? `(${numberOfVotes} votes)` : "No rating";
 
   return (
-    <div className="flex flex-col gap-5 text-md tracking-wide align-middle w-80 h-80 m-10 md:w-72 md:h-72 sm:my-5 xs:w-[90%] xs:mb-2">
+    <div className="flex flex-col gap-5 xs:gap-1 text-md tracking-wide align-middle w-80 h-80 m-10 md:w-72 md:h-72 sm:my-5 xs:w-[90%] xs:m-0">
       {/* CSS style applied here */}
       {/* Remember to not use `border border-transparent` if not necessary. It was screwing up the img background */}
       <div
-        className="text-white bg-white h-52 w-full xs:h-1/2 rounded-lg tracking-wide align-middle relative overflow-hidden bg-cover bg-center"
+        className="text-white bg-white h-52 w-full xs:h-32 rounded-lg tracking-wide align-middle relative overflow-hidden bg-cover bg-center"
         style={backgroundStyle}
       >
         <div className={popularTag}>
@@ -72,7 +72,7 @@ export function Card({
       </div>
 
       <div className="text-white border border-transparent rounded-lg flex flex-col gap-1 align-middle font-bold">
-        <div className="flex flex-row justify-between gap-7 mx-3 text-lg mt-3 ">
+        <div className="flex flex-row justify-between gap-7 mx-3 text-lg mt-3">
           <button className="px-2 rounded-xl hover:bg-white hover:text-[#111315] transform transition duration-500">
             <p>{name}</p>
           </button>
@@ -85,7 +85,7 @@ export function Card({
         </div>
         <div className="align-middle mx-3 flex flex-row gap-1 text-md text-white mt-1">
           {/* Evaluate if the number of votes is major than 0. If it is, it has rating, otherwise, display empty star */}
-          <img src={numberOfVotes > 0 ? starFill : star} />
+          <img className="" src={numberOfVotes > 0 ? starFill : star} />
           <div className="flex gap-1 justify-between w-full">
             <div className="flex gap-2">
               <p className="">{rating}</p>
